@@ -15,21 +15,26 @@
  *       required: true
  *       content:
  *         application/json:
- *           schema:
+ *            schema:
  *             type: object
  *             properties:
- *               nomeDoHost:
+ *               hostname:
  *                 type: string
- *                 example: "Servidor Secundário"
- *               jogadores:
+ *                 example: "777 unknown"
+ *               players:
  *                 type: integer
- *                 example: 15
- *               mapa:
+ *                 example: 24
+ *               map:
  *                 type: string
- *                 example: "Mapa da Floresta"
- *               modo:
+ *                 example: "Dust 2"
+ *               mode:
  *                 type: string
- *                 example: "Casual"
+ *                 example: "Competitive"
+ *             required:
+ *               - hostname
+ *               - players
+ *               - map
+ *               - mode
  *     responses:
  *       200:
  *         description: Session updated successfully

@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { createSession } from "./src/handlers/createSession.mjs";
 import { getSession } from "./src/handlers/getSession.mjs";
 import { getAllSessions } from "./src/handlers/getSession.mjs";
@@ -10,6 +11,7 @@ import swaggerUi from "swagger-ui-express";
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 // Configuração do Swagger
 const swaggerDefinition = {
