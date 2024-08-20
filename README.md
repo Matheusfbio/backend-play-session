@@ -40,7 +40,7 @@ Develop an AWS Serverless application using AWS SAM to provide a RESTful API tha
 
 - Clone this repository:
 ```
-   git clone https://github.com/Matheusfbio/backend-play-session.git
+git clone https://github.com/Matheusfbio/backend-play-session.git
 ```
 - and then install the dependencies
 ```
@@ -71,7 +71,7 @@ HTTP://localhost:3000/api-docs
 ```
 - shows the unit tests performed on each file ./src/handlers/all_files
 ```
-npm run test: 
+npm run test
 ```
 - show test coverage for each file
 ```
