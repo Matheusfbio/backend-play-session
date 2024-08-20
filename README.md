@@ -42,6 +42,10 @@ Develop an AWS Serverless application using AWS SAM to provide a RESTful API tha
 ```
    git clone https://github.com/Matheusfbio/backend-play-session.git
 ```
+- and then install the dependencies
+```
+npm install
+```
 - define the .env to integrate with the backend locally for testing purposes
 ```
 DYNAMODB_ENDPOINT="http://127.0.0.1:8000"
@@ -49,6 +53,7 @@ AWS_REGION="us-west-1"
 TABLE_NAME="GameSessions"
 ```
 ### Important codes in the project
+
 
 Existing commands in the projects:
 
@@ -59,6 +64,10 @@ npm run create-table
 - to run the project using nodemon
 ```
 npm run start
+```
+- to access the api document is just go to this address
+```
+HTTP://localhost:3000/api-docs
 ```
 - shows the unit tests performed on each file ./src/handlers/all_files
 ```
